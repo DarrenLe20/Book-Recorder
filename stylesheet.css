@@ -1,0 +1,142 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefefe;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.title {
+    background-color: #ffd1dc;
+    padding: 5px 30px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fefefe;
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.mid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffd1dc;
+    padding: 20px;
+}
+
+.shelf {
+    display: flex;
+    min-height: 65vh;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    /* Add shadows */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.bookFunctions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.functions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card,
+button {
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 15px;
+    border: 0px;
+    
+}
+
+.card,
+button:active {
+    transform: translateY(2px);
+    
+}
+
+.bg-modal {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin: 15px auto;
+}
+
+.instruction {
+    font-weight: bolder;
+    font-size: larger;
+}
