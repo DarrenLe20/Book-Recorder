@@ -2,22 +2,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fefefe;
+    background-color: #EED9C8;
     padding: 30px;
     font-size: 50px;
     font-weight: bolder;
 }
 
 .title {
-    background-color: #ffd1dc;
+    color: #3E4A4D;
     padding: 5px 30px;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fefefe;
+    background-color: #EED9C8;
     padding: 20px;
 }
 
@@ -34,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #ffd1dc;
+    background-color: #1A3A47;
     padding: 20px;
 }
 
@@ -54,16 +55,23 @@ body {
     border-radius: 15px;
     padding: 16px;
     margin: 16px;
-    width: 300px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 400px;
+    background-color: #EED9C8;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card,
+p {
+    color: #3E4A4D;
 }
 
 .bookFunctions {
@@ -79,6 +87,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 30px;
 }
 
 .card,
@@ -89,9 +98,11 @@ button {
     font-weight: bold;
     justify-content: center;
     align-items: center;
-    padding: 10px 30px;
+    padding: 20px 50px;
     border-radius: 15px;
     border: 0px;
+    background-color: #EED9C8;
+    border: 1px solid #1A3A47;
     
 }
 
@@ -118,9 +129,10 @@ button:active {
     align-items: center;
     width: 500px;
     height: 300px;
-    background-color: white;
+    background-color: #EED9C8;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #1A3A47;
 }
 
 form {
@@ -136,7 +148,15 @@ input {
     margin: 15px auto;
 }
 
+.modal-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
 .instruction {
     font-weight: bolder;
     font-size: larger;
+    padding-bottom: 20px;
 }

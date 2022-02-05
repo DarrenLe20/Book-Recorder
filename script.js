@@ -24,9 +24,11 @@ function addBookToShelf(a) {
     // Create title
     let title = document.createElement('p');
     title.textContent = a.title;
+    title.classList.add('book_title')
     // Create author
     let author = document.createElement('p');
     author.textContent = a.author;
+    author.classList.add('book_author')
     // Create function session
     let bookFunctions = document.createElement('div');
     bookFunctions.classList.add('bookFunctions');
